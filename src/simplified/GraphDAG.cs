@@ -4,15 +4,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using grafo.src.shared;
 
-namespace grafo.src.dag
+namespace grafo.src.simplified
 {
-    public class GraphDAG
+    public class GraphDAGSimple
     {
         /// <summary>
         /// Represents all nodes in graph
         /// </summary>
         private readonly Dictionary<string, Node> _nodes;
-        public GraphDAG()
+        public GraphDAGSimple()
         {
             _nodes = [];
         }
